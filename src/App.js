@@ -1,6 +1,5 @@
 import React from "react";
-import Counter from "./Counter";
-import MyComponent from "./MyComponent";
+import Say from "./Say";
 
 function App() {
   const style = {
@@ -12,8 +11,7 @@ function App() {
   return (
     <>
       <h1 style={style}>Hello react</h1>
-      {/* <MyComponent name="React">뤼액트</MyComponent> */}
-      <Counter />
+      <Say />
     </>
   );
 }
